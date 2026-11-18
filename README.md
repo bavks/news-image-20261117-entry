@@ -16,12 +16,16 @@ output on every run.
 
 ## The image
 
-A front-page "picture of the day" poster for **Tuesday, 17 November
-2026**: a dated masthead over six panels, one per story, each with a
-simple flat illustration drawn in code, a short headline and one factual
-sub-line. All lettering was typeset programmatically (no generative
-text), so nothing is garbled, and the poster stays legible shrunk to
-300 px across.
+A vintage newspaper front page for **Tuesday, 17 November 2026**,
+typeset as "The Daily Meridian": a serif nameplate and dateline over
+one lead story (the Kerch Bridge) and the other five stories in ruled
+columns, each with a short headline and one factual sub-line. The
+illustrations are drawn in code and run through an ordered-dither
+newsprint pass, so they read as halftone newspaper art in black ink on
+newsprint. All lettering was typeset programmatically (no generative
+text), so nothing is garbled, and the page stays legible shrunk to
+300 px across. `render_image.py` is the renderer that produces
+`entry.png`.
 
 ## The six stories, as reported on the day
 
